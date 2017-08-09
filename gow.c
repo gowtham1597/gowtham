@@ -7,7 +7,7 @@ int main()
   printf("Enter a character\n");
   scanf("%c", &cha);
  
-  if (cha == 'a' || cha == 'A' || cha == 'e' || cha == 'E' || cha == 'i' || cha == 'I' || cha =='o' || cha =='O' || cha == 'u' || cha == 'U')
+  if ((cha == 'a') ||( cha == 'A' )||( cha == 'e') || (cha == 'E') || (cha == 'i') ||( cha == 'I') || (cha =='o') ||( cha =='O') || (cha == 'u') || (cha == 'U'))
   {
     printf("%c is a vowel.\n", cha);
   else
