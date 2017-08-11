@@ -1,16 +1,11 @@
-public class HelloWorld 
+#include<stdio.h>
+
+void main()
 {
-	public static void main(String[] args)
-  {
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-		System.out.println("Hello World!");
-	}
+    int count;
+
+        for(count=1;count<=5;count++)
+        {
+            printf("hello\n");
+        }
 }
