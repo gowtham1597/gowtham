@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int b, exponent;
+    int b, ex;
 
     long long result = 1;
 
@@ -9,12 +9,12 @@ int main()
     scanf("%d", &b);
 
     printf("Enter an exponent: ");
-    scanf("%d", &exponent);
+    scanf("%d", &exp);
 
     while (exponent != 0)
     {
         result *= b;
-        --exponent;
+        --exp;
     }
 
     printf("Answer = %lld", result);
