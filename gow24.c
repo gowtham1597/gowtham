@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a, reversedNumber = 0, remainder;
+    int a, reversed= 0, remainder;
 
     printf("Enter an integer: ");
     scanf("%d", &a);
@@ -9,11 +9,11 @@ int main()
     while(a != 0)
     {
         remainder = a%10;
-        reversedNumber = reversedNumber*10 + remainder;
+        reversed = reversed*10 + remainder;
         a /= 10;
     }
 
-    printf("Reversed Number = %d", reversedNumber);
+    printf("Reversed Number = %d", reversed);
 
     return 0;
 }
